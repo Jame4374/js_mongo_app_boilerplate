@@ -4,12 +4,11 @@
   "description": "Online",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/ph3ar/js_mongo_app_boilerplate.git"
   },
   "license": "MIT",
-  "author": "Sahat Yalkabov",
-  "contributors": [
-    "Yashar Fakhari (https://github.com/YasharF)"
+  "author": "Michael barbine",
+  "contributors": ["Tom Hoopes"
   ],
   "scripts": {
     "postinstall": "npm rebuild node-sass",
