@@ -1,2 +1,8 @@
 # js_app_boilerplate
-NodeJS, Mongo, Express, PassportJS - PH3AR Project Starter 
+NodeJS, Mongo, Express, PassportJS - PH3AR Project Starter
+
+
+
+```
+cp .env.example .env
+```
