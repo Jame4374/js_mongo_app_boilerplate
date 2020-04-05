@@ -1,37 +1,31 @@
 {
-  "name": "js_mongo_app_boilerplate",
-  "version": "1.0.0",
-  "main": "server/server.js",
-  "engines": {
-    "node": ">=6"
+  "name": "PH3AR",
+  "version": "6.0.0",
+  "description": "Online",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahat/hackathon-starter.git"
   },
+  "license": "MIT",
+  "author": "Sahat Yalkabov",
+  "contributors": [
+    "Yashar Fakhari (https://github.com/YasharF)"
+  ],
   "scripts": {
-    "lint": "eslint .",
-    "start": "node .",
-    "posttest": "npm run lint"
+    "postinstall": "npm rebuild node-sass",
+    "start": "node app.js",
+    "test": "nyc mocha --timeout=10000 --exit",
+    "lint": "eslint \"**/*.js\""
   },
   "dependencies": {
-    "compression": "^1.0.3",
-    "cors": "^2.5.2",
-    "helmet": "^3.10.0",
-    "loopback-boot": "^2.6.5",
-    "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.0.0",
-    "loopback-component-explorer": "^6.2.0",
-    "loopback": "^3.22.0"
-  },
-  "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-loopback": "^8.0.0"
-  },
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "license": "UNLICENSED",
-  "description": "js_mongo_app_boilerplate"
-}
-.1",
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@ladjs/bootstrap-social": "^7.0.2",
+    "@octokit/rest": "^17.0.0",
+    "@sendgrid/mail": "^7.0.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
     "chalk": "^3.0.0",
     "chart.js": "^2.9.3",
     "cheerio": "^1.0.0-rc.3",
@@ -79,6 +73,7 @@
     "popper.js": "^1.16.1",
     "pug": "^2.0.4",
     "stripe": "^8.22.0",
+    "telnet-client": "^1.2.11",
     "tumblr.js": "^2.0.2",
     "twilio": "^3.39.5",
     "twit": "^2.2.11",
